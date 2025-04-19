@@ -1,0 +1,21 @@
+Client,Client Segment,Client Region,Client Cluster,Account Manager,Join Year
+Client_1,Indépendant,West,Mid-tier,Manager_1,2019
+Client_2,GMS,West,Mid-tier,Manager_2,2022
+Client_3,Indépendant,North,Small,Manager_3,2019
+Client_4,Indépendant,North,Mid-tier,Manager_4,2021
+Client_5,GMS,West,Small,Manager_5,2021
+Client_6,GMS,South,Small,Manager_1,2021
+Client_7,Indépendant,South,Premium,Manager_2,2021
+Client_8,HORECA,North,Small,Manager_3,2022
+Client_9,Indépendant,West,Premium,Manager_4,2020
+Client_10,Indépendant,North,Small,Manager_5,2023
+Client_11,Indépendant,North,Small,Manager_1,2018
+Client_12,Indépendant,East,Premium,Manager_2,2021
+Client_13,GMS,East,Premium,Manager_3,2019
+Client_14,Indépendant,East,Small,Manager_4,2021
+Client_15,HORECA,South,Mid-tier,Manager_5,2019
+Client_16,GMS,West,Premium,Manager_1,2023
+Client_17,HORECA,West,Mid-tier,Manager_2,2023
+Client_18,HORECA,West,Mid-tier,Manager_3,2023
+Client_19,HORECA,West,Mid-tier,Manager_4,2019
+Client_20,HORECA,East,Premium,Manager_5,2021
