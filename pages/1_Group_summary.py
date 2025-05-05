@@ -205,7 +205,7 @@ df_fact = pd.read_sql_query("SELECT Date, Volume, [Unit Price], Scenario FROM Fa
 df_fact['Date'] = pd.to_datetime(df_fact['Date'])
 df_fact['Year'] = df_fact['Date'].dt.year
 # Compute revenue
-df_fact['Revenue'] = df_fact['Volume'] * df_fact['Unit Price']
+df_fact['Revenue'] = (df_fact['Volume'] * df_fact['Unit Price']).round(0).astype(int)
 
 summary_totals = (
     df_fact[((df_fact['Year'] == 2024) & (df_fact['Scenario'] == 'Actual')) |

@@ -26,7 +26,7 @@ def load_data(_conn):
     df = pd.read_excel("./Data/df_fact.xlsx")
     df = df.loc[:, ~df.columns.str.contains(r"^Unnamed")]
     df['Date']    = pd.to_datetime(df['Date'])
-    df['Revenue'] = df['Volume'] * df['Unit Price']
+    df['Revenue'] = (df['Volume'] * df['Unit Price']).round(0).astype(int)
     df.to_sql("Fact", _conn, index=False, if_exists="replace")
 
     # Charge la dimension client pour avoir le segment
